@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Enhanced Microblog</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Microblog</h1>
+        <form id="postForm">
+            <textarea id="postContent" placeholder="What's on your mind?" required></textarea>
+            <input type="file" id="mediaInput" accept="image/*,video/*">
+            <button type="submit">Post</button>
+        </form>
+        <div id="posts" class="posts"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
